@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "http://danran.de/$1",
+      "dest": "https://danran.de/$1",
       "headers": {
         "X-Forwarded-Host": "www.danran.de",
         "X-Forwarded-Proto": "https"
