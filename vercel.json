@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "http://danran.de/$1"
+      "dest": "http://danran.de:80/$1"
     }
   ]
 }
