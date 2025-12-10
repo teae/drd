@@ -1,6 +1,9 @@
 {
-    "version": 2,
-    "routes": [
-      {"src": "/(.*)","dest": "http://danran.de/$1"}
-    ]
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "http://danran.de/$1"
+    }
+  ]
 }
